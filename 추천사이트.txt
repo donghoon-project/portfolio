@@ -1,0 +1,8 @@
+https://www.flaticon.com/   - 아이콘 무료 다운 -
+
+https://labs.tineye.com/color/
+c28e2e9a3064ee80f341f2e6
+06bc899ce1a11c39ignore_backg
+round=True&width=250&color     - 사진 색 추출 -
+_format=hex&ignore_interior_
+background=True&height=140

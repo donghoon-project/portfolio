@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DongHoon:::Portfolio</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+
+    }
+
+    body {
+      background-color: rgb(249, 249, 250);
+    }
+
+    .container_wrap {
+      display: flex;
+    width: 70%;
+    height: 1045px;
+    margin: 32px auto;
+    border-radius: 20px;
+    position: relative;
+    }
+
+    .container_wrap .header_profil {
+      /* margin-top: 20px;
+      margin-right: -15px;
+      padding: 0 20px;
+      height: 95vh;
+      background: #cedbf7;
+      border-bottom-left-radius: 20px;
+      border-top-left-radius: 20px; */
+      margin-top: 20px;
+      margin-right: -15px;
+      padding: 0 20px;
+      background: #cedbf7;
+      border-bottom-left-radius: 20px;
+      border-top-left-radius: 20px;
+      color: #2B3856;
+      font-weight: bold;
+      transition: left .2s;
+      left: 0;
+      position: relative;
+      background: #cedbf7;
+    }
+
+    .profil_text {
+     margin-top: 10px;
+    }
+
+    .container_wrap .header_profil_img {
+      margin-top: 80px;
+      text-align: center;
+    }
+
+    .show {
+      left: 341px !important;
+    }
+
+    .container_wrap .header_profil img {
+      border: 1px solid rgb(201, 200, 200);
+      height: 200px;
+      background-color: white;
+      border-radius: 50%;
+
+    }
+
+    .port_main {
+    padding-top: 27px;
+    width: 95%;
+    }
+
+    .port_main p {
+      position: relative;
+      bottom: 0;
+      font-weight: normal;
+    }
+
+    .port_main_info_text {
+      width: 100%;
+    }
+
+    /* .port_main_info2_text {
+      width: 50%;
+      /* border: 1px solid red; */
+
+    .header_profil_text {
+      width: 300px;
+      text-align: center;
+      position: relative;
+      top: 10px;
+    }
+
+    .header_profil_text .profil_text {
+      font-size: 18px;
+      padding-top: 15px;
+    }
+
+    .port_wrap {
+      /* flex: 1; */
+      margin-top: 20px;
+      flex: 1;
+      background-color: white;
+      border: 1px solid rgb(201, 200, 200);
+      border-radius: 20px;
+      padding: 27px 7px 0 20px;
+      z-index: 10;
+      padding: 0 40px;
+
+    }
+
+    .introduce_header {
+      font-size: 65px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .introduce_contents {
+      padding: 5px 105px;
+      margin-top: 100px;
+      font-size: 20px;
+    }
+
+    .introduce_contents_a {
+    width: 65%;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 20px;
+    margin: 30px 0px 0px 190px;
+    }
+
+
+
+    .introduce_contents .introduce_contents_b {
+      margin-left: 70px;
+    }
+
+    .introduce_contents_skill ul {
+      display: flex;
+      list-style: none;
+      padding-left: 70px;
+      justify-content: space-around;
+    }
+
+    .introduce_contents_skill ul li {
+      list-style: none;
+      padding: 10px 80px 4px 10px;
+    }
+
+    .introduce_contents_skill ul li img {
+      border: 1px solid rgb(201, 200, 200);
+      border-radius: 20px;
+      width: 50px;
+      padding: 10px;
+    }
+
+    .port_main_info_text2 {
+      position: absolute;
+      top: 20%;
+      left: 26%;
+      width: 94%;
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .port_main_info_text2 .introduce_txt {
+      margin-top: 30px;
+      /* border: 1px solid red; */
+      width: 60%;
+    }
+
+    .sidebar {
+      margin-top: 30px;
+    }
+
+    .sidebar .icons {
+      height: 240px;
+    }
+
+    .sidebar .icons img {
+      width: 50px;
+    }
+
+    .sidebar .icons ul li {
+      list-style: none;
+      padding: 7px 0px 20px 0px;
+      position: relative;
+      left: 9px;
+    }
+
+    .sidebar .icons ul li img:hover {
+      padding-bottom: 10px;
+      border-bottom: 2px solid rgb(201, 200, 200);
+      transition: all 0.4s;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container_wrap">
+      <div class="header_profil">
+        <div class="header_profil_img">
+          <img src="img/propil.png" alt="">
+        </div>
+        
+        <div class="header_profil_text">
+          <div class="profil_text"><span>이름: 이동훈</span></div>
+          <div class="profil_text"><span>주소: 경기도 부천시</span></div>
+          <div class="profil_text"><span>생년월일: 1994.11.14</span></div>
+          <div class="profil_text"><span>이메일: kane5178@naver.com</span></div>
+          <div class="profil_text"><span>MBTI: INFP</span></div>
+          <div class="profil_text"><span>취미: 게임 , 꾸미기</span></div>
+        </div>
+      </div>
+
+      <section class="port_wrap">
+        <div class="port_main">
+          <div class="introduce_header">
+            <p style="color: #8caaf5;">DONG HOON <span style="color:#2B3856;">LEE</p>
+            <p style=" font-weight: 600; font-size: 20px;line-height: 5;">끊임없이 도전하고 호기심 많은 이동훈입니다.</p>
+          </div>
+
+
+          <div class="introduce_contents">
+            <p class="introduce_contents_b"> 이번 멀티캠퍼스 프론트 엔드 취업캠프 (React 3회)에서 웹에 완성도를
+              높이기 위해 팀원간의 소통을 하며 프로젝트를 완성하는것이 꿈입니다.</p>
+          </div>
+
+          <div class="introduce_contents">
+            <p style="color: #8caaf5; font-size: 40px; text-align: center;">My Skill</p>
+          </div>
+
+          <div class="introduce_contents_a">
+            <div class="introduce_contents_skill">
+              <ul>
+                <li><a href=""><img src="img/html.png" alt="홈"></a></li>
+                <li><a href=""><img src="img/css.png" alt=""></a></li>
+                <li><a href=""><img src="img/js.png" alt="기술"></a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <div class="icons">
+          <ul>
+            <li><a href="index.html"><img src="img/home.png" alt="홈"></a></li>
+            <li><a href="javascript:void(0);" title="클릭해서 프로필을 숨기거나 보이게 할 수 있어요"><img src="img/user.png" alt=""></a></li>
+            <li><a href="project.html"><img src="img/pencil.png" alt="기술"></a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
